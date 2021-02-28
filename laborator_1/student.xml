@@ -1,0 +1,3 @@
+<StudentBean><nume>bo</nume><prenume>bu</prenume><varsta>21</varsta><adresa>alunului nr 9</adresa><hobby>calarit</hobby><initialaTatalui>M</initialaTatalui><cnp>0</cnp></StudentBean>
+<StudentBean><nume>ni</nume><prenume>san</prenume><varsta>23</varsta><adresa>teiului nr 12</adresa><hobby>inot</hobby><initialaTatalui>A</initialaTatalui><cnp>0</cnp></StudentBean>
+<StudentBean><nume>va</nume><prenume>si</prenume><varsta>34</varsta><adresa>Strada marisoara</adresa><hobby>prasit</hobby><initialaTatalui>K</initialaTatalui><cnp>0</cnp></StudentBean>
