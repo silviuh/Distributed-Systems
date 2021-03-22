@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
+</head>
+<body>
+
+<a href="/"> Home </a>
+<hr>
+
+<div class="col-md-12">
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Balance</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{ account.id }}</td>
+            <td><strong>{{ account.first_name }}</strong></td>
+            <td>{{ account.last_name }}</td>
+            <td>{{ account.balance }}</td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+
+<hr>
+
+</body>
+</html>

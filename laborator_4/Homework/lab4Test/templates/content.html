@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/add" method="post">
+                        <div class="form-group">
+                            <input class="form-control" type="number" name="id" placeholder="ID" required>
+                            <input class="form-control" type="text" name="first_name" placeholder="First Name" required>
+                            <input class="form-control" type="text" name="last_name" placeholder="Last Name" required>
+                            <input class="form-control" type="number" name="balance" step="0.01" placeholder="Balance"
+                                   required>
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            Add
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <br>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/update" method="post">
+                        <div class="form-group">
+                            <input class="form-control" type="number" name="id" placeholder="ID" required>
+                            <input class="form-control" type="text" name="first_name" placeholder="First Name" required>
+                            <input class="form-control" type="text" name="last_name" placeholder="Last Name" required>
+                            <input class="form-control" type="number" name="balance" step="0.01" placeholder="Balance"
+                                   required>
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            Update
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/delete" method="post">
+                        <div class="form-group">
+                            <input class="form-control" type="number" name="id" placeholder="ID" required>
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            Delete
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/fetch" method="get">
+                        <div class="form-group">
+                            <input class="form-control" value="id" type="number" name="id" placeholder="ID" required>
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            Fetch
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-12">
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <table class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Balance</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for account in accounts %}
+                <tr>
+                    <td>{{ account.id }}</td>
+                    <td><strong>{{ account.first_name }}</strong></td>
+                    <td>{{ account.last_name }}</td>
+                    <td>{{ account.balance }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+
+            </table>
+        </div>
+
+
+    </div>
+</div>
+
+{% endblock %}
+
+
+
+

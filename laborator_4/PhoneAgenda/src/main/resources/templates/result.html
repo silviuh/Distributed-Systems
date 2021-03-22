@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Insert Person into db</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'id: ' + ${person.id}" />
+<p th:text="'Last Name: ' + ${person.lastName}" />
+<p th:text="'First Name: ' + ${person.firstName}" />
+<p th:text="'Telephone Number: ' + ${person.telephoneNumber}" />
+
+<a href="/person">Submit another person</a>
+</body>
+</html>
