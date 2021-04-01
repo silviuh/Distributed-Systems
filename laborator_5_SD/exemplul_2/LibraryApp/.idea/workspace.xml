@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeeab89-547c-4d96-90d9-fe18d79942f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/interfaces/XMLPrinter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../laborator_4/PhoneAgenda/target/classes/templates/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../laborator_4/PhoneAgenda/target/classes/templates/person.html" afterDir="false" />
-    </list>
+    <list default="true" id="aaeeab89-547c-4d96-90d9-fe18d79942f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +115,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>105</line>
+          <properties class="com.sd.laborator.components.LibraryAppComponent" method="customService">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>142</line>
+          <properties class="com.sd.laborator.components.LibraryAppComponent" method="customPrint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/LibraryDAOService.kt</url>
@@ -240,8 +253,58 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>65</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>143</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/LibraryDAOService.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
           <line>106</line>
-          <option name="timeStamp" value="53" />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>107</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>109</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>144</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/components/LibraryAppComponent.kt</url>
+          <line>145</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/LibraryPrinterAdvancedService.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/LibraryPrinterService.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
