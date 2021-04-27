@@ -1,0 +1,1 @@
+cat /Users/silviuh1/Downloads/labsd09/fisier.txt | grep "word" | wc
